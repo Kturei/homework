@@ -1,0 +1,36 @@
+body {
+  background: #3f3f3f;
+  color: #fff;
+}
+
+.container {
+  margin: 40px;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+h1::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transform: translate(-32%, -18%);
+  border: 5px solid #fff;
+  background: #ca0000;
+}
+
+h1::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transform: translate(32%, -18%);
+  border: 5px solid #fff;
+  background: #4b4bff;
+}

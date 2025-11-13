@@ -1,0 +1,35 @@
+body {
+  background: #464646;
+  font-family: "Open Sans";
+  color: #fff;
+}
+
+.title {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.container {
+  margin-right: 50px;
+}
+
+.block {
+  min-height: 100px;
+  width: calc(50% - 50px);
+  border-radius: 15px;
+  background: #fff;
+  position: fixed;
+  left: 50%;
+  bottom: 100px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: #9b0000;
+  position: absolute;
+  left: 8%;
+  bottom: 50%;
+}
