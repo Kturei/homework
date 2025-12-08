@@ -1,0 +1,23 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th,
+caption,
+table {
+  border: 1px solid #000;
+}
+
+caption {
+  border-bottom: none;
+}
+
+.none {
+  border: none;
+}
+
+th:nth-child(6),
+th:nth-child(7) {
+  color: red;
+}
