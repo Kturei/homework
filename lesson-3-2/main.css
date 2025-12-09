@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+form {
+  max-width: 300px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 7px;
+}
+fieldset,
+input,
+textarea {
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+label:nth-child(7) {
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+textarea,
+input {
+  max-width: 200px;
+  padding: 4px 8px;
+}
+textarea {
+  resize: none;
+  height: 30px;
+}
+button {
+  border: none;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
