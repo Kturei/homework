@@ -1,0 +1,124 @@
+html {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+}
+body * {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.title {
+  max-width: 596px;
+  margin-bottom: 40px;
+  font-family: Oswald;
+  font-weight: 600;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+.title--large {
+  font-size: 48px;
+}
+.title--medium {
+  font-size: 36px;
+}
+.text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+}
+.mb {
+  margin-bottom: 80px;
+}
+
+/* ================================ */
+
+.new__img,
+.final__img {
+  width: 100%;
+}
+.new__decor,
+.final__decor {
+  position: relative;
+}
+.new__decor::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: url("../images/decor-icon.svg");
+  height: 528px;
+  width: 48px;
+
+  transform: rotateZ(90deg);
+  top: 18%;
+  right: 106%;
+}
+.final__decor::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: url("../images/decor-icon.svg");
+  height: 528px;
+  width: 48px;
+
+  transform: rotateZ(90deg);
+  top: 18%;
+  left: 106%;
+}
+
+.group__list {
+  margin-top: 0;
+  padding-left: 16px;
+}
+
+.group__item {
+  margin-bottom: 12px;
+}
+.group__item::marker {
+  color: #3596ed;
+  font-size: 22px;
+}
+
+.final__img {
+  margin-bottom: 40px;
+}
+.final__decor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.final__play {
+  width: 60px;
+  height: 60px;
+  background: #3596ed;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+  position: absolute;
+
+  cursor: pointer;
+}
+.final__play_icon {
+  position: absolute;
+  right: 31.2%;
+  bottom: 32%;
+}
